@@ -1,29 +1,29 @@
-*{
+* {
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-color: #252525;
     color: #FFF;
 }
 
-.primary-bg-color{
+.primary-bg-color {
     background-color: #252525;
 }
 
-.secondary-bg-color{
+.secondary-bg-color {
     background-color: #C09578;
 }
 
-.light-bg-color{
+.light-bg-color {
     background-color: #FCF5EB;
 }
 
-.dark-bg-color{
+.dark-bg-color {
     background-color: #101010;
 }
 
-.primary-color{
+.primary-color {
     color: #C09578;
 }
 
@@ -31,7 +31,7 @@ body{
     color: #626262;
 }
 
-.light-color{
+.light-color {
     color: #FCF5EB;
 }
 
@@ -74,37 +74,36 @@ body{
     left: 20px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: 700;
     width: 100%;
     text-align: center;
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
     .navbar-brand {
         text-align: left;
     }
 }
 
-#navbar-items{
+#navbar-items {
     justify-content: space-between;
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
     #navbar-items {
         min-width: 80%;
         display: flex;
     }
 }
 
-#search-form{
+#search-form {
     width: 100%;
     margin: 2em;
 }
 
-@media(min-width: 768px)
-{
-    #search-form{
+@media(min-width: 768px) {
+    #search-form {
         min-width: 50%;
         margin: 0;
     }
@@ -116,7 +115,7 @@ body{
     padding: 5px 15px;
 }
 
-#search-form input{
+#search-form input {
     background-color: transparent;
     border: none;
     color: #FFF;
@@ -126,6 +125,40 @@ body{
     box-shadow: none;
 }
 
-#search-form input::placeholder{
+#search-form input::placeholder {
     color: #FFF;
+}
+
+/* BANNERS */
+#banners-container {
+    padding: 0;
+
+}
+
+.carousel-caption {
+    bottom: 5em;
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+}
+
+.carousel-caption h5 {
+    font-size: 1.8em;
+}
+
+@media(min-width: 768px) {
+
+    #slider .carousel-item,
+    #slider img {
+        height: 600px;
+    }
+
+    .carousel-caption {
+        left: 23%;
+        right: 23%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 4em;
+    }
 }
